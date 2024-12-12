@@ -17,4 +17,8 @@ def sendGetRequest(url):
 def searchMovies(query, page):
   url = f"https://api.themoviedb.org/3/search/movie?query={urllib.parse.quote(query)}&include_adult=false&language=en-US&page={page}"
   print(url)
+  return sendGetRequest(url)['results']
+
+def getMovieByID(id):
+  url = f"https://api.themoviedb.org/3/movie/{id}"
   return sendGetRequest(url)

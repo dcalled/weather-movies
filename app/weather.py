@@ -9,4 +9,6 @@ def getTemperature(date):
   url = f"https://archive-api.open-meteo.com/v1/archive?latitude=6.2518&longitude=-75.5636&start_date={date}&end_date={date}&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean&timezone=America%2FNew_York"
   print(url)
   response = requests.get(url)
+  if response.status_code is not 200:
+    return
   return response.json()
