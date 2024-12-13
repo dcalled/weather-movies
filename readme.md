@@ -93,21 +93,13 @@ flask run
 
 The API will be available at `http://127.0.0.1:5000`.
 
-### **7. (Optional) Run the Webhook Receiver**
-If you want to test the webhook functionality, you can set up a webhook receiver on another port.
-
-#### Example Webhook Receiver:
-```bash
-python webhook.py
-```
-
 ---
 
 ## **Environment Variables**
 - **The `.env` file is mandatory. Use the `.env.example` file as a template.**
-  ```plaintext
-  MOVIEDB_ACCESS_TOKEN=your_token_here
-  ```
+```plaintext
+MOVIEDB_ACCESS_TOKEN=your_token_here
+```
 
 ---
 
