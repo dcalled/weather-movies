@@ -1,7 +1,7 @@
 # Movie Weather API
 
 ## **Overview**
-This project is a Flask-based API that integrates movie and weather data. The service allows users to query information about a movie and retrieve details such as the title, genres, and the weather conditions (maximum and minimum temperatures) on the movie's release date.
+This project is a Flask-based API that integrates movie and weather data. The service allows users to query information about a movie and retrieve details such as the title, genres, and the weather conditions (maximum and minimum temperatures) for the city of Medellin, Colombia on the movie's release date.
 
 ### **Features**
 - Fetches movie details by query using external movie APIs.
