@@ -28,7 +28,7 @@ GET /movie-info?query=avatar
 ```json
 {
   "title": "Avatar",
-  "genres": ["Action", "Adventure", "Sci-Fi"],
+  "genres": ["Action", "Adventure", "Fantasy", "Science Fiction"],
   "maxTemp": 25.5,
   "minTemp": 15.1
 }
